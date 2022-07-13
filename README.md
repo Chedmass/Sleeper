@@ -2,6 +2,7 @@
  Python3.kivy app for setting up sleep timer on windows pc/laptop
 
  **Functions**
+
 2 main buttons, Abort and Shutdown.
 - Abort button aborts the shutdown.
 - Shutdown button starts the timer for shutting down the device in chosen amount of time.

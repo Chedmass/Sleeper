@@ -1,13 +1,15 @@
 # Sleeper
- Python3.kivy app for setting up sleep timer on windows pc/laptop
+** Python3.kivy app for setting up sleep timer on windows pc/laptop**
 
- **Functions**
+# **Functions**
 
 2 main buttons, Abort and Shutdown.
-- Abort button aborts the shutdown.
-- Shutdown button starts the timer for shutting down the device in chosen amount of time.
+- Abort button cancels the shutdown timer.
+- Shutdown button starts the timer for shutting down the device.
+
 Timer setting field.
 - Labeled input zone for hours, minutes and seconds, where hours capped at 24, minutes and seconds at 60.
+
 Field with last 3 used timers.
 - Contains up to three buttons with timers used lately.
 

@@ -1,0 +1,50 @@
+
+<Upper_Buttons>:
+    pos_hint: {"x": .7, "y": .7}
+    size_hint: .3, .3
+    cols: 2
+
+    Button:
+        size_hint: .3, .3
+        background_normal: 'png/Abort_normal.png'
+        background_down: 'png/Abort_down.png'
+        on_press: root.abort_shut()
+
+    Button:
+        size_hint: .3, .3
+        background_normal: 'png/Shut_normal.png'
+        background_down: 'png/Shut_down.png'
+        on_press: root.shut_timer()
+
+<Time_Input>:
+    pos_hint: {"x": 0, "y": .3}
+    size_hint: 1, .3
+    cols: 3
+
+<Old_Input>:
+    pos_hint: {"x": 0, "y": 0}
+    size_hint: 1, .3
+    cols: 3
+
+<S_M_Inp>:
+    input_filter: 'int'
+    multiline: False
+<H_Inp>:
+    input_filter: 'int'
+    multiline: False
+
+<S_Box>
+    rows: 2
+    size_hint: .33, .3
+    Label:
+        text: 'Seconds'
+<M_Box>
+    rows: 2
+    size_hint: .33, .3
+    Label:
+        text: 'Minutes'
+<H_Box>
+    rows: 2
+    size_hint: .33, .3
+    Label:
+        text: 'Hours'
